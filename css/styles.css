@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  flex-wrap: wrap;
+  box-sizing: 0px;
+}
+
+header {
+  justify-content: space-around;
+  margin: 0px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+ul {
+  font-weight: bold;
+  gap: 30px;
+  font-family: 'Montserrat', sans-serif;
+  display: inline-flex;
+  text-align: center;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+li a {
+  border-radius: 10px;
+  display: flex;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  padding: 10px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #ececec;
+}
+
+body {
+  margin: 0px;
+}
+
+.logo2 {
+  margin-left: 5px;
+  margin-top: 1px;
+  margin-right: 5px;
+}
+
+.logotxt {
+  font-size: 9px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.pres1 {
+  font-size: 3.125rem;
+  margin-top: 0px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondopize.jpeg);
+  background-position: center;
+  height: 600px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  color: #ececec;
+}
+
+button {
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 50px;
+  border-color: black;
+  background-color: black;
+  font-size: 15px;
+}
+
+h2 {
+  font-size: 75px;
+
+  text-shadow: 1px 1px 3px black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+
+}
+
+.pres2 {
+  padding: 80px;
+  margin-top: 30px;
+}
+
+div h3 {
+  font-size: 50px;
+}
+
+div p {
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.boton2 {
+  margin-left: 150px;
+}
+
+.hora {
+  padding: 25px;
+
+  border: solid rgb(206, 206, 206);
+
+  text-align: center;
+  margin-top: 25px;
+  list-style-type: none;
+}
+
+div h3 {
+  font-size: 30px;
+}
+
+.horarios {
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.delivery {
+  text-align: center;
+  margin-top: 40px;
+  line-height: 80px;
+}
+
+.doble {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondoempanadas.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 30px;
+}
+
+footer {
+  height: 400px;
+  padding-top: 50px;
+  padding: 25;
+  margin-top: 0px;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tel {
+  font-size: 60px;
+  color: black;
+}
+
+.redes {
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+.lista {
+  display: block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 40px;
+
+}
+
+.pizzas {
+  display: block;
+  border: solid 3px black;
+  padding: 35px;
+  color: white;
+  background-color: rgb(49, 47, 47);
+}
+
+.pizzas1 {
+  display: block;
+  border: solid 3px black;
+  padding: 35px;
+  color: white;
+  background-color: rgb(35, 35, 35);
+}
+
+.titulosmenus {
+  font-size: 35px;
+  margin-left: 15px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  color: black;
+}
+
+.formularioc {
+  display: block;
+  text-align: center;
+  border: solid 2px black;
+  margin: 80px;
+  padding: 40px;
+}
+
+.mapa {
+  border: solid 3px black;
+  border-radius: 50px;
+  text-align: center;
+  margin: 50px;
+  padding: 80px;
+}
+
+.carousel-item img {
+  background-color: rgb(35, 35, 35);
+  padding: 35px;
+  padding-bottom: 50px;
+  height: 600px;
+  border-bottom: solid 2px black;
+
+}
+
+.galp {
+  text-align: center;
+
+  padding-top: 75px;
+  padding-bottom: 35px;
+  background-color: rgb(35, 35, 35);
+  margin: 0;
+}
+
+h6 {
+  color: white;
+  font-size: 1rem;
+}
