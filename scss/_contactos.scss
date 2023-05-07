@@ -1,0 +1,25 @@
+input { display: grid;
+    width: 100%;
+    height: 70px;
+    margin: 10px;
+    color: $color-principal;
+    border: solid 1px $color-invertido;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  input:hover {
+    background: $color-terciario;
+    color: $color-principal;
+  }
+  
+  .formularioc {
+    display: block;
+    text-align: center;
+    border: solid 2px black;
+    margin: 80px;
+    padding: 40px;
+  }

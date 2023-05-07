@@ -1,0 +1,46 @@
+.fotos1 {
+    display: block;
+}
+
+.pizza1 {
+    margin-top: $fuente-chica ;
+    height: 300px;
+    width: 300px;
+    padding: $fuente-chica;
+    border: solid 2px $color-terciario;
+}
+
+.pres2 {
+    border-bottom: $separaciones;
+    border-top: $separaciones
+}
+
+.hora {
+    padding: 25px;
+    border: solid $color-principal;
+    text-align: center;
+    margin-top: 25px;
+    list-style-type: none;
+}
+
+.horarios {
+    font-size: $fuente-chica;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.delivery {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 120px;
+}
+
+.doble {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondoempanadas.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $color-principal;
+    padding: 30px;
+}

@@ -1,0 +1,21 @@
+.galp {
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 35px;
+    background-color: $color-secundario;
+    margin: 0;
+}
+
+.carousel-item img {
+    background-color: $color-secundario;
+    padding: 35px;
+    padding-bottom: 50px;
+    height: 25%;
+    width: 100%;
+    border-bottom: solid 2px black;
+}
+
+h6 {
+    color: $color-principal;
+    font-size: $fuente-chica;
+}

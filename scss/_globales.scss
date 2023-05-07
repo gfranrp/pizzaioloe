@@ -1,0 +1,109 @@
+body,
+header {
+    background-color: $color-principal;
+}
+
+body {
+    text-align: center;
+}
+
+li,
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: $color-principal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+.navbar-brand {
+    font-family: $funte-principal;
+}
+
+.pres2,
+.doble,
+.footer {
+    @include separaciones
+}
+
+.btn,
+.btn-dark {
+    padding: 15px;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: $funte-principal;
+    border-radius: 50px;
+    border-color: $color-invertido;
+    background-color: $color-terciario;
+    font-size: $fuente-chica;
+}
+
+a {
+    text-decoration: none;
+    color: $color-invertido;
+}
+
+.pres1 {
+    @include principal;
+    font-size: $fuente-grande;
+    font-family: $funte-principal;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondopize.jpeg);
+    background-position: center;
+    color: #ececec;
+}
+
+header {
+    @include nav;
+    justify-content: space-around;
+}
+
+ul {
+    @include nav;
+    gap: 30px;
+    list-style-type: none;
+}
+
+li a {
+    @include nav;
+    border-radius: 10px;
+    padding: 5px 10px;
+    text-decoration: none;
+
+    &:hover {
+        color: rgb(176, 0, 0)
+    }
+}
+
+.navbar {
+    height: 150px;
+
+}
+
+footer {
+    height: 400px;
+    padding-top: 50px;
+    padding: 25;
+    margin-top: 0px;
+    align-items: center;
+    text-align: center;
+}
+
+.redes {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+@media (min-width: $tablets) {
+    .navbar-brand {
+        padding-right: 250px;
+    }
+
+}

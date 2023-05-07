@@ -1,0 +1,14 @@
+.mapa {
+    border: solid 3px $color-invertido;
+    border-radius: 50px;
+    text-align: center;
+    margin: 50px;
+    padding: 80px;
+    height: 800px;
+}
+
+.direc {
+    color: $color-secundario;
+    @include separaciones;
+    padding: 0px;
+}

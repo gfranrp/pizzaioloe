@@ -1,140 +1,179 @@
-* {
-  margin: 0;
-  padding: 0;
-  font-family: 'Montserrat', sans-serif;
-  flex-wrap: wrap;
-  box-sizing: 0px;
-}
-
+@charset "UTF-8";
+/*Paleta de colores*/
+/*tamaño de fuentes*/
+/*resolucion de pantallas*/
+/*fuentes*/
+body,
 header {
-  justify-content: space-around;
-  margin: 0px;
   background-color: white;
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-}
-
-ul {
-  font-weight: bold;
-  gap: 30px;
-  font-family: 'Montserrat', sans-serif;
-  display: inline-flex;
-  text-align: center;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
-  background-color: #ffffff;
-}
-
-li a {
-  border-radius: 10px;
-  display: flex;
-  color: rgb(0, 0, 0);
-  text-align: right;
-  padding: 10px 14px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #ececec;
 }
 
 body {
-  margin: 0px;
-}
-
-.logo2 {
-  margin-left: 5px;
-  margin-top: 1px;
-  margin-right: 5px;
-}
-
-.logotxt {
-  font-size: 9px;
   text-align: center;
-  color: rgb(0, 0, 0);
-  font-family: 'Roboto', sans-serif;
-  text-decoration: none;
 }
 
-.pres1 {
-  font-size: 3.125rem;
-  margin-top: 0px;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondopize.jpeg);
-  background-position: center;
-  height: 600px;
-  width: 100%;
-  text-align: center;
-  align-items: center;
-  color: #ececec;
-}
-
-button {
-  padding: 15px;
-  color: #ffffff;
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  border-radius: 50px;
-  border-color: black;
-  background-color: black;
-  font-size: 15px;
+li,
+ul {
+  list-style-type: none;
 }
 
 h2 {
-  font-size: 75px;
-
-  text-shadow: 1px 1px 3px black;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 100;
-
+  color: white;
 }
 
-.pres2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ul,
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pres2,
+.doble,
+.footer {
   padding: 80px;
   margin-top: 30px;
 }
 
-div h3 {
-  font-size: 50px;
+.btn,
+.btn-dark {
+  padding: 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 50px;
+  border-color: black;
+  background-color: rgb(35, 35, 35);
+  font-size: 20px;
 }
 
-div p {
-  font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.pres1 {
+  margin: 0;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 800px;
+  width: 100%;
+  font-size: 4.688rem;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/fondopize.jpeg);
+  background-position: center;
+  color: #ececec;
+}
+
+header {
+  margin: 0;
+  background-color: white;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  font-size: 20px;
+  justify-content: space-around;
+}
+
+ul {
+  margin: 0;
+  background-color: white;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  font-size: 20px;
+  gap: 30px;
+  list-style-type: none;
+}
+
+li a {
+  margin: 0;
+  background-color: white;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+li a:hover {
+  color: rgb(176, 0, 0);
+}
+
+.navbar {
+  height: 150px;
+}
+
+footer {
+  height: 400px;
+  padding-top: 50px;
+  padding: 25;
+  margin-top: 0px;
+  align-items: center;
+  text-align: center;
+}
+
+.redes {
+  margin-top: 50px;
+  margin-bottom: 90px;
+}
+
+@media (min-width: 768px) {
+  .navbar-brand {
+    padding-right: 250px;
+  }
+}
+.fotos1 {
+  display: block;
+}
+
+.pizza1 {
   margin-top: 20px;
-  margin-bottom: 15px;
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+  border: solid 2px rgb(35, 35, 35);
 }
 
-.boton2 {
-  margin-left: 150px;
+.pres2 {
+  border-bottom: solid 1px rgb(35, 35, 35);
+  border-top: solid 1px rgb(35, 35, 35);
 }
 
 .hora {
   padding: 25px;
-
-  border: solid rgb(206, 206, 206);
-
+  border: solid white;
   text-align: center;
   margin-top: 25px;
   list-style-type: none;
-}
-
-div h3 {
-  font-size: 30px;
 }
 
 .horarios {
   font-size: 20px;
   margin-top: 25px;
+  margin-bottom: 10px;
 }
 
 .delivery {
   text-align: center;
   margin-top: 40px;
-  line-height: 80px;
+  line-height: 120px;
 }
 
 .doble {
@@ -147,66 +186,65 @@ div h3 {
   padding: 30px;
 }
 
-footer {
-  height: 400px;
-  padding-top: 50px;
-  padding: 25;
-  margin-top: 0px;
-  align-items: center;
-  text-align: center;
-}
-
-a {
-  text-decoration: none;
-}
-
-.tel {
-  font-size: 60px;
-  color: black;
-}
-
-.redes {
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 90px;
-}
-
 .lista {
-  display: block;
+  padding: 35px;
   margin: 0;
-  padding: 0;
+  display: block;
   text-align: center;
-  line-height: 40px;
-
+  color: white;
+  text-align: center;
+  line-height: 4.688rem;
 }
 
 .pizzas {
-  display: block;
-  border: solid 3px black;
   padding: 35px;
-  color: white;
-  background-color: rgb(49, 47, 47);
-}
-
-.pizzas1 {
+  margin: 0;
   display: block;
-  border: solid 3px black;
-  padding: 35px;
+  text-align: center;
   color: white;
+  border: solid 3px black;
   background-color: rgb(35, 35, 35);
 }
 
+.pizzas1 {
+  padding: 35px;
+  margin: 0;
+  display: block;
+  text-align: center;
+  color: white;
+  border: solid 3px black;
+  background-color: rgb(49, 47, 47);
+}
+
 .titulosmenus {
+  padding: 35px;
+  margin: 0;
+  display: block;
+  text-align: center;
+  color: white;
   font-size: 35px;
   margin-left: 15px;
   margin-top: 15px;
   margin-bottom: 30px;
-  text-align: center;
-  color: white;
 }
 
-h3 {
-  color: black;
+input {
+  display: grid;
+  width: 100%;
+  height: 70px;
+  margin: 10px;
+  color: white;
+  border: solid 1px black;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+input:hover {
+  background: rgb(35, 35, 35);
+  color: white;
 }
 
 .formularioc {
@@ -217,33 +255,42 @@ h3 {
   padding: 40px;
 }
 
+.galp {
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 35px;
+  background-color: rgb(49, 47, 47);
+  margin: 0;
+}
+
+.carousel-item img {
+  background-color: rgb(49, 47, 47);
+  padding: 35px;
+  padding-bottom: 50px;
+  height: 25%;
+  width: 100%;
+  border-bottom: solid 2px black;
+}
+
+h6 {
+  color: white;
+  font-size: 20px;
+}
+
 .mapa {
   border: solid 3px black;
   border-radius: 50px;
   text-align: center;
   margin: 50px;
   padding: 80px;
+  height: 800px;
 }
 
-.carousel-item img {
-  background-color: rgb(35, 35, 35);
-  padding: 35px;
-  padding-bottom: 50px;
-  height: 600px;
-  border-bottom: solid 2px black;
-
+.direc {
+  color: rgb(49, 47, 47);
+  padding: 80px;
+  margin-top: 30px;
+  padding: 0px;
 }
 
-.galp {
-  text-align: center;
-
-  padding-top: 75px;
-  padding-bottom: 35px;
-  background-color: rgb(35, 35, 35);
-  margin: 0;
-}
-
-h6 {
-  color: white;
-  font-size: 1rem;
-}
+/*# sourceMappingURL=styles.css.map */
